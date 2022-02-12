@@ -1,0 +1,932 @@
+[
+    {
+      "date": "1 Jan 2022",
+      "batchNumber": "A",
+      "ocNumber": "ID12525",
+      "efficiency": 77.7,
+      "totalOutputQuantity": 240,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "1 Jan 2022",
+      "batchNumber": "A",
+      "ocNumber": "ID12566",
+      "efficiency": 23,
+      "totalOutputQuantity": 275,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 0,
+          "outputQuantity": 0
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 0,
+          "outputQuantity": 0
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 0,
+          "outputQuantity": 0
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 0,
+          "outputQuantity": 0
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 0,
+          "outputQuantity": 0
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "1 Jan 2022",
+      "batchNumber": "B",
+      "ocNumber": "ID12525",
+      "efficiency": 62.7,
+      "totalOutputQuantity": 220,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "1 Jan 2022",
+      "batchNumber": "C",
+      "ocNumber": "ID12524",
+      "efficiency": 40,
+      "totalOutputQuantity": 300,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "1 Jan 2022",
+      "batchNumber": "D",
+      "ocNumber": "ID12525",
+      "efficiency": 45,
+      "totalOutputQuantity": 400,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "2 Jan 2022",
+      "batchNumber": "A",
+      "ocNumber": "ID12525",
+      "efficiency": 77.7,
+      "totalOutputQuantity": 240,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "2 Jan 2022",
+      "batchNumber": "B",
+      "ocNumber": "ID12525",
+      "efficiency": 62.7,
+      "totalOutputQuantity": 220,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "2 Jan 2022",
+      "batchNumber": "C",
+      "ocNumber": "ID12525",
+      "efficiency": 40,
+      "totalOutputQuantity": 300,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "2 Jan 2022",
+      "batchNumber": "D",
+      "ocNumber": "ID12525",
+      "efficiency": 45,
+      "totalOutputQuantity": 400,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "3 Jan 2022",
+      "batchNumber": "A",
+      "ocNumber": "ID12525",
+      "efficiency": 77.7,
+      "totalOutputQuantity": 240,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "3 Jan 2022",
+      "batchNumber": "A",
+      "ocNumber": "ID12566",
+      "efficiency": 23,
+      "totalOutputQuantity": 240,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "3 Jan 2022",
+      "batchNumber": "B",
+      "ocNumber": "ID12525",
+      "efficiency": 62.7,
+      "totalOutputQuantity": 220,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "3 Jan 2022",
+      "batchNumber": "C",
+      "ocNumber": "ID12525",
+      "efficiency": 40,
+      "totalOutputQuantity": 300,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "3 Jan 2022",
+      "batchNumber": "D",
+      "ocNumber": "ID12525",
+      "efficiency": 45,
+      "totalOutputQuantity": 400,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "4 Jan 2022",
+      "batchNumber": "A",
+      "ocNumber": "ID12525",
+      "efficiency": 77.7,
+      "totalOutputQuantity": 240,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "4 Jan 2022",
+      "batchNumber": "B",
+      "ocNumber": "ID12525",
+      "efficiency": 62.7,
+      "totalOutputQuantity": 220,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        }
+      ]
+    },
+    {
+      "date": "4 Jan 2022",
+      "batchNumber": "C",
+      "ocNumber": "ID12525",
+      "efficiency": 40,
+      "totalOutputQuantity": 300,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "5:00PM",
+          "hourEfficiency": 24,
+          "outputQuantity": 80
+        }
+      ]
+    },
+    {
+      "date": "4 Jan 2022",
+      "batchNumber": "D",
+      "ocNumber": "ID12525",
+      "efficiency": 45,
+      "totalOutputQuantity": 400,
+      "hourlyDetails": [
+        {
+          "startTime": "9:00AM",
+          "endTime": "10:00AM",
+          "hourEfficiency": 23,
+          "outputQuantity": 100
+        },
+        {
+          "startTime": "10:00AM",
+          "endTime": "11:00AM",
+          "hourEfficiency": 38,
+          "outputQuantity": 140
+        },
+        {
+          "startTime": "11:00AM",
+          "endTime": "12:00PM",
+          "hourEfficiency": 45,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "12:00PM",
+          "endTime": "1:00PM",
+          "hourEfficiency": 35,
+          "outputQuantity": 110
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "2:00PM",
+          "hourEfficiency": 12,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "2:00PM",
+          "endTime": "3:00PM",
+          "hourEfficiency": 40,
+          "outputQuantity": 125
+        },
+        {
+          "startTime": "3:00PM",
+          "endTime": "4:00PM",
+          "hourEfficiency": 30,
+          "outputQuantity": 150
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "5:00PM",
+          "hourEfficiency": 24,
+          "outputQuantity": 80
+        }
+      ]
+    }
+  ]
