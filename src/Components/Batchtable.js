@@ -65,7 +65,7 @@ export const Batchtable = ({startDate, endDate}) => {
         <div className='container'>
 
         <h2 className='p-3'>Batch Efficiency Table</h2>
-        <div className="row py-4 fw-bold text-white bg-danger border border-dark border-3 rounded">
+        <div className="row py-4 fw-bold text-blue bg-white border border-dark border-3 rounded">
             <div className="col-4">Time</div>
             <div className="col-1">A</div>
             <div className="col-1">B</div>

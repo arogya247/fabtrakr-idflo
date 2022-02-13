@@ -18,11 +18,12 @@ export const Locationchart = ({startDate, endDate}) => {
 
   }
 
+  console.log("Check hello", fdata);
 
   return (
     <div>
       <h2 className='p-3'>Location Efficiency Chart</h2>
-      <Linechart fdata={fdata} />
+      {fdata.length!==0 ? <Linechart fdata={fdata} /> : <h4>No data exists for the given range of dates</h4>}
     </div>
   )
 }

@@ -78,7 +78,7 @@ export const Locationtable = ({startDate, endDate}) => {
 
         <h2 className='p-3'>Location Efficiency Table</h2>
 
-        <div className="row py-4 fw-bold text-white bg-danger border border-dark border-3 rounded">
+        <div className="row py-4 fw-bold text-blue bg-white border border-dark border-3 rounded">
             <div className="col-2">Date</div>
             <div className="col-1">1st Hour</div>
             <div className="col-1">2nd Hour</div>
