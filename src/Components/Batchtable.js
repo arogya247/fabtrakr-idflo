@@ -61,11 +61,15 @@ export const Batchtable = ({startDate, endDate}) => {
         setFinalarray(temp_arr)
     }
 
+    const tabstyle = {
+        color: '#334BFF'
+    }
+
     return (
-        <div className='container'>
+        <div style={tabstyle} className='tab container'>
 
         <h2 className='p-3'>Batch Efficiency Table</h2>
-        <div className="row py-4 fw-bold text-blue bg-white border border-dark border-3 rounded">
+        <div className="row py-4 fw-bold">
             <div className="col-4">Time</div>
             <div className="col-1">A</div>
             <div className="col-1">B</div>

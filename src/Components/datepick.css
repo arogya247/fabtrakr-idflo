@@ -1,0 +1,29 @@
+.react-datepicker-wrapper {
+    display: inline;
+    padding: 0;
+    margin: auto;
+    width: 50px;
+  }
+  
+  .react-datepicker {
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #aeaeae;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: relative;
+    left: 90px;
+  }
+
+  .react-datepicker__triangle{
+    position: absolute;
+    left: -50px;
+    transform: translate3d(240px, 0px, 0px);
+  }
+  .react-datepicker__month-container {
+    display: fixed;
+    left: 200px;
+    top: 10px;
+}

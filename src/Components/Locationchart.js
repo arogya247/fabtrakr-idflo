@@ -22,7 +22,7 @@ export const Locationchart = ({startDate, endDate}) => {
 
   return (
     <div>
-      <h2 className='p-3'>Location Efficiency Chart</h2>
+      <h2 style={{color: '#334BFF'}} className='p-3'>Location Efficiency Chart</h2>
       {fdata.length!==0 ? <Linechart fdata={fdata} /> : <h4>No data exists for the given range of dates</h4>}
     </div>
   )

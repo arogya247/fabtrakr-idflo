@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Chart } from "react-google-charts";
 
 export const Barchart = ({fdata}) => {
@@ -30,25 +30,26 @@ export const Barchart = ({fdata}) => {
     }
 
     const data = [
-        ["Batch", "Efficiency"],
-        ["A", average(temp.A)],
-        ["B", average(temp.B)],
-        ["C", average(temp.C)],
-        ["D", average(temp.D)],
+        ["Batch", "Efficiency", { role: 'style' } ],
+        ["A", average(temp.A), 'color: gray'],
+        ["B", average(temp.B), 'color: gray'],
+        ["C", average(temp.C), 'color: gray'],
+        ["D", average(temp.D), 'color: gray'],
         ];
         
+        
     const options = {
-    chart: {
-        title: "Batch Efficiency Chart",
-        subtitle: "Batch Number, Efficiency",
-    },
+        chart: {
+            title: "",
+            subtitle: ""
+        },
     };
 
     return (
-    <div className="container fw-bold">
+    <div  className="container fw-bold">
     <Chart
       chartType="Bar"
-      width="100%"
+      width= '100%'
       height="400px"
       data={data}
       options={options}

@@ -1,24 +1,22 @@
 import React from 'react'
-import ReactDatePicker from 'react-datepicker';
+import DatePicker from 'react-datepicker';
 
 import "react-datepicker/dist/react-datepicker.css";  
+import "./datepick.css"
+export const Datepicker = ({startDate,endDate,dateRange,setDateRange}) => {
 
-export const Datepicker = ({startDate, setStartDate,endDate, setEndDate}) => {
+  
+  return (
+    <DatePicker
 
-    const onChange = (dates) => {
-      const [start, end] = dates;
-      setStartDate(start);
-      setEndDate(end);
-    };
+    style={{color: 'blue'}}
 
-    return (
-    <ReactDatePicker
-      selected={startDate}
-      onChange={onChange}
+      selectsRange={true}
       startDate={startDate}
       endDate={endDate}
-      selectsRange
-      inline
+      onChange={(update) => {
+        setDateRange(update);
+      }}
     />
-    )
+  )
 }

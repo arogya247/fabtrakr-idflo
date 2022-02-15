@@ -7,8 +7,8 @@ export const Locationtableitem = ({e}) => {
 
   return (
     <div className='py-1'>
-      <div className="row py-1 shadow border border-dark border-3 rounded">
-        <div className="col-2">{date}</div>
+      <div className="row py-1">
+        <div className="col-2 fw-bold">{date}</div>
         <div className="col-1">{firsthour}</div>
         <div className="col-1">{secondhour}</div>
         <div className="col-1">{thirdhour}</div>

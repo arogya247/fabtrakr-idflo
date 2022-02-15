@@ -7,37 +7,44 @@ import { Locationchart } from './Locationchart';
 
 export const Dashboard = () => {
 
-    const [startDate, setStartDate] = useState(new Date('1 Jan 2022'));
-    const [endDate, setEndDate] = useState(new Date('4 Jan 2022'));
+    const [dateRange, setDateRange] = useState([new Date('1 Jan 2022'), new Date('4 Jan 2022')]);
+    const [startDate, endDate] = dateRange;
 
     const [showchart, setShowchart] = useState(true)
 
     console.log("Dashboard::", startDate, endDate)
 
     const ctstyles = {
-      color: showchart ? 'blue' : 'black' ,
-      fontWeight: showchart ? "bold" : "normal"
+      color: showchart ? '#334BFF' : 'black' ,
+      fontWeight: showchart ? "bold" : "normal",
+      borderColor: '#334BFF'
     }
 
     const tbstyles = {
-      color: !showchart ? 'blue' : 'black' ,
-      fontWeight: !showchart ? "bold" : "normal"
+      color: !showchart ? '#334BFF' : 'black' ,
+      fontWeight: !showchart ? "bold" : "normal",
+      borderColor: '#334BFF'
     }
 
-    console.log(startDate)
-
   return (
-    <div className="m-3">
+    <div className="container mt-3">
 
-    {<button style={ctstyles} type="button" onClick={() => setShowchart(true)} className="btn btn-lg btn-light border border-dark border-2 rounded mb-3" >Chart</button> }
-    {<button style={tbstyles} type="button" onClick={() => setShowchart(false)} className="btn btn-lg btn-light border border-dark border-2 rounded mb-3" >Table</button> }
-
-    <Datepicker className='col-4' startDate={startDate} setStartDate={setStartDate} endDate={endDate} setEndDate={setEndDate} />
+    <div className="row">
+      <div className='col-4'></div>
+      <div className="col-4 buttons align-center">
+          {<button style={ctstyles} type="button" onClick={() => setShowchart(true)} className="btn btn-lg bg-white btn-light border-1 rounded mb-3" >Chart</button> }
+          {<button style={tbstyles} type="button" onClick={() => setShowchart(false)} className="btn btn-lg bg-white btn-light border-1 rounded mb-3" >Table</button> }
+      </div>
+      <Datepicker className='col-4' startDate={startDate} endDate={endDate} dateRange={dateRange} setDateRange={setDateRange} />
+    </div>
     
-    {!showchart && endDate && <Locationtable startDate={startDate} endDate={endDate} />}
-    {!showchart && !endDate  && <Batchtable startDate={startDate}/>}
-    {showchart  && !endDate && <Batchchart startDate={startDate} endDate={endDate} />}
-    {showchart  && endDate && <Locationchart startDate={startDate} endDate={endDate} />}
+    <div className="content mt-3">
+      {!showchart && endDate && <Locationtable startDate={startDate} endDate={endDate} />}
+      {!showchart && !endDate  && <Batchtable startDate={startDate}/>}
+      {showchart  && !endDate && <Batchchart startDate={startDate} endDate={endDate} />}
+      {showchart  && endDate && <Locationchart startDate={startDate} endDate={endDate} />}
+    </div>
+    
 
     </div>    
   )

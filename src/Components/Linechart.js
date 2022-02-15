@@ -33,8 +33,8 @@ export const Linechart = ({fdata}) => {
       
     const options = {
         chart: {
-          title: "Location Efficiency Chart",
-          subtitle: "based on dates",
+          title: "",
+          subtitle: "",
         },
       };
 
